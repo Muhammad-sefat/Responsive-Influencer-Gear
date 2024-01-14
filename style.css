@@ -158,6 +158,41 @@ hr{
     line-height: 26px;
 }
 
+/* about section start */
+
+.about{
+    width: 95%;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-img{
+    width: 48%;
+    padding-top: 30px;
+}
+.about-img img{
+    width: 100%;
+}
+.about-text{
+    width: 48%;
+}
+.about-text h1{
+    font-size: 35px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.about-text p{
+    font-size: 16px;
+    color: #787885;
+    font-size: 500;
+    line-height: 26px;
+}
+.btn{
+    margin: 10px 0;
+    border-radius: 0;
+    border: 0;
+}
 
 
 /* responsive for mobile device */
@@ -212,6 +247,12 @@ hr{
         flex-direction: column;
     }
     .banner-card{
+        width: 100%;
+    }
+    .about{
+        flex-direction: column-reverse;
+    }
+    .about-img,.about-text{
         width: 100%;
     }
     
