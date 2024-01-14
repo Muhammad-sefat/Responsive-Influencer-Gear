@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* header section start */
+
+header{
+    width: 90%;
+    margin: 0 auto;
+}
+nav{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+nav h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #3a3a3a;
+}
+nav ul{
+    list-style: none;
+}
+nav ul a{
+    font-size: 16px;
+    margin-left: 35px;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav ul a:hover{
+    color: #959191;
+}
+nav ul a i{
+    font-size: 24px;
+}
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0 30px;
+}
+.header-text{
+    width: 48%;
+    padding-top: 140px;
+}
+.header-text h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 70px;
+    padding-bottom: 15px;
+}
+.header-text p{
+    color: #555;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.header-img{
+    width: 40%;
+    padding-top: 50px;
+    background-image: url("images/Circle\ design.svg");
+}
+.header-img img{
+    width: 90%;
+}
+.btn{
+    background-color: #E02C6D;
+    padding: 12px 25px;
+    font-size: 16px;
+    color: #faf6f6;
+    border-radius: 25px;
+}
+.btn i{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+/* main start */
+
+main{
+    width: 85%;
+    margin: 50px auto;
+}
+hr{
+    width: 90%;
+    color: #959191;
+    margin: 50px auto;
+}
+.logo-div{
+    margin: 20px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* banner start */
+
+.banner{
+    width: 90%;
+    margin: 40px auto;
+}
+.banner h3{
+    text-align: center;
+    padding: 50px 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+.banner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.banner-card{
+   width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 2px 4px 40px 5px rgba(0, 0, 0, 0.15);
+}
+.banner-card img{
+    width: 100%;
+}
+.banner-card h2{
+    padding: 15px 0;
+    color: #3a3a3a;
+    font-size: 26px;
+}
+.banner-card h4{
+    color: #3a3a3a;
+    font-size: 22px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.rating{
+    display: flex;
+    padding: 5px 0;
+}
+.rating i{
+    margin-left: 5px;
+    color: #e37806;
+}
+.rating p{
+    margin-left: 8px;
+    color: #787885;
+}
+.banner-card p{
+    color: #787885;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+
+
+/* responsive for mobile device */
+
+@media screen and (max-width: 576px){
+    nav{
+        flex-direction: column;
+        text-align: center;
+        height: 200px;
+    }
+    nav ul{
+        padding: 30px 0;    
+    }
+    nav ul a{
+        padding: 10px;
+        margin-top: 10px;
+    }
+    nav ul a i{
+        margin-top: 14px;
+    }
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-img{
+        width: 80%;
+        height: 100%;
+       background-position: center;
+       background-size: cover;
+    }
+    .header-img img{
+        width: 100%;
+    }
+    .header-text{
+        width: 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .header-text h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .logo-div{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .logo-div img{
+        width: 75px;
+        height: 30px;
+        padding: 10px;
+    }
+    .banner-section{
+        flex-direction: column;
+    }
+    .banner-card{
+        width: 100%;
+    }
+    
+}
