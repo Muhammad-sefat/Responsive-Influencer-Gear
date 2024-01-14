@@ -194,6 +194,40 @@ hr{
     border: 0;
 }
 
+/* footer start */
+footer{
+    height: 250px;
+    width: 100%;
+    background-color: #111111;
+    margin: 20px 0;
+}
+.footer-div{
+    text-align: center;
+    margin: auto;
+}
+.footer-div h2{
+    padding-top: 60px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.footer-div p{
+    font-size: 16px;
+    color: #c6c6c8;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 8px 0 0;
+}
+.footer-icon{
+    padding: 20px 0;
+}
+.footer-icon i{
+    margin: 0 10px;
+    font-size: 20px;
+    color: #FFF;
+}
+
 
 /* responsive for mobile device */
 
